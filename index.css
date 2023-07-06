@@ -2,20 +2,19 @@ body {
 	margin: 0;
 	background-attachment: fixed;
 	background: rgb(2, 0, 36);
-	background: linear-gradient(126deg, rgba(2, 0, 36, 1) 0%, rgba(146, 60, 181, 1) 54%, rgba(11, 16, 162, 1) 100%);
+	background: linear-gradient(126deg, rgb(124, 86, 173) 0%, rgba(146, 60, 181, 1) 54%, rgba(11, 16, 162, 1) 100%);
 }
 
 .title-bar {
 	justify-content: space-between;
 	display: flex;
 	height: 10%;
-	background-color: black;
 	color: white;
+	backdrop-filter: blur(10px);
 	padding-top: 10px;
 	align-items: center;
 	padding-left: 75px;
 	padding-right: 100px;
-	background: url('../assets/demos/transparent.jpg') center / cover;
 }
 
 .lefish {
