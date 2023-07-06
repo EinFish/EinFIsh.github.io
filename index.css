@@ -1,10 +1,8 @@
 body{
 	margin: 0;
-	background-image: url(./backgroundd.svg);
-	background-repeat: no-repeat;
-	background-size: 100%;
 	background-attachment: fixed;
-	color: white;
+	background: rgb(2,0,36);
+	background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(146,60,181,1) 54%, rgba(11,16,162,1) 100%);
 }
 .title-bar{
 	justify-content: space-between;
