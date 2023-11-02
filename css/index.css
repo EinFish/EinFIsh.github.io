@@ -10,7 +10,6 @@ body {
 
 header {
 	background: linear-gradient(to bottom, rgb(26, 26, 26), rgb(128, 128, 128));
-	padding: 0 40px 0px 0px;
 }
 
 nav {
@@ -33,6 +32,10 @@ ul {
 	padding: 20px;
 }
 
+nav .lnks {
+	padding-inline-start: 0;
+}
+
 @media screen and (max-width: 605px) {
 	nav {
 		display: inline-block;
@@ -41,6 +44,8 @@ ul {
 	.lnks li {
 		margin: auto;
 	}
+
+
 
 	.pic li {
 		margin: auto;
