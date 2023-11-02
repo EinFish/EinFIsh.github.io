@@ -22,6 +22,7 @@ nav {
 ul {
 	list-style-type: none;
 	display: flex;
+
 }
 
 .lnks li {
@@ -31,6 +32,26 @@ ul {
 #lefish {
 	padding: 20px;
 }
+
+@media screen and (max-width: 605px) {
+	nav {
+		display: inline-block;
+	}
+
+	.lnks li {
+		margin: auto;
+	}
+
+	.pic li {
+		margin: auto;
+	}
+
+	#lefish {
+		display: none;
+	}
+
+}
+
 
 a {
 	color: white;
@@ -52,9 +73,10 @@ header img {
 /* BODY */
 
 
-.wop {
-	padding-left: 100px;
+section {
 	height: auto;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #woph1 {
@@ -62,16 +84,23 @@ header img {
 }
 
 
+
+/* FOOTER */
+
+
 .footer {
 	display: flex;
-	justify-content: center;
-	width: 100%;
 	padding-top: 100px;
-	margin: auto;
+
 }
 
 .footer li {
-	padding: 20px;
-	margin: 0;
+	padding: 10px;
+}
 
+.footer ul {
+	padding-inline-start: 0;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
 }
