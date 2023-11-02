@@ -16,12 +16,13 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	padding-inline-start: 0;
 }
 
 ul {
 	list-style-type: none;
 	display: flex;
-
+	padding-inline-start: 0;
 }
 
 .lnks li {
@@ -30,10 +31,6 @@ ul {
 
 #lefish {
 	padding: 20px;
-}
-
-nav .lnks {
-	padding-inline-start: 0;
 }
 
 @media screen and (max-width: 605px) {
@@ -46,9 +43,12 @@ nav .lnks {
 	}
 
 
-
 	.pic li {
 		margin: auto;
+	}
+
+	.pic ul {
+		padding-inline-start: 0;
 	}
 
 	#lefish {
